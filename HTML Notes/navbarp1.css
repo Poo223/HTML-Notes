@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(55, 55, 243);
+}
+
+body{
+    margin: 0;
+}
+.links a{
+    color:white;
+    text-decoration: none;  /* remove underline */
+    margin: 0px 20px;
+}
+.links a:hover{
+    text-decoration: underline;/* overline,none */
+    color:white;
+}
